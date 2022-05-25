@@ -7,6 +7,7 @@ const arr = [
   { title: "peach", id: 3 },
   { title: "grapes", id: 4 },
   { title: "cherry", id: 5 },
+  {title: "watermelon", id: 5}
 ];
 let i = arr.length;
 displayArr(arr);
