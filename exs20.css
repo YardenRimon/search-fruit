@@ -1,0 +1,56 @@
+.input-box {
+  width: 300px;
+  height: 32px;
+  background: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/search.png")
+    no-repeat 6px 7px;
+  background-size: 16px 16px;
+  background-position: 5px right 2px left;
+  padding-left: 33px;
+  border-style: hidden;
+  border-radius: 5px;
+  border-color: #676666;
+  border-width: 3px;
+  background-color: #ffffff;
+  color: #2c3e50;
+  font-weight: lighter;
+}
+.container {
+  max-width: 800px;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  color: #ffffff;
+  font-weight: lighter;
+  padding: 0;
+}
+li {
+  text-align: center;
+  background-color: #623efc;
+  width: 300px;
+  height: 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  font-size: small;
+  font-weight: lighter;
+}
+
+body {
+  background-color: #ebf2ff;
+}
+
+h2 {
+  background-color: #ff6247;
+  width: 300px;
+  height: 32px;
+  border-radius: 5px;
+}
