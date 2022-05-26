@@ -1,7 +1,14 @@
+body{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .input-box {
   width: 300px;
   height: 32px;
-  background: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/search.png")
+  background: url("https://cdn-icons-png.flaticon.com/512/2899/2899266.png")
     no-repeat 6px 7px;
   background-size: 16px 16px;
   background-position: 5px right 2px left;
@@ -15,14 +22,14 @@
   font-weight: lighter;
 }
 .container {
+  min-height: 65vh;
   max-width: 800px;
   padding: 0px;
-  margin: auto;
-  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -30,7 +37,7 @@ ul {
   font-weight: lighter;
   padding: 0;
 }
-li {
+li, .non {
   text-align: center;
   background-color: #623efc;
   width: 300px;
@@ -48,9 +55,8 @@ body {
   background-color: #ebf2ff;
 }
 
-h2 {
+.non {
   background-color: #ff6247;
-  width: 300px;
-  height: 32px;
-  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
 }
