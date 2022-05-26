@@ -7,7 +7,7 @@ const arr = [
   { title: "peach", id: 3 },
   { title: "grapes", id: 4 },
   { title: "cherry", id: 5 },
-  {title: "watermelon", id: 5}
+  { title: "watermelon", id: 5 }
 ];
 let i = arr.length;
 displayArr(arr);
@@ -38,8 +38,8 @@ function addTask() {
 function displayArr(arr) {
   listUl.innerHTML = ``;
   if (arr.length === 0) {
-    const alert = document.createElement("h2");
-    // alert.classList.add = "non";
+    const alert = document.createElement("h4");
+    alert.classList.add("non");
     alert.textContent = "No results found!";
     listUl.append(alert);
   }
