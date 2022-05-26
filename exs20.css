@@ -3,6 +3,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .input-box {
   width: 300px;
@@ -21,6 +22,7 @@ body{
   font-weight: lighter;
 }
 .container {
+  min-height: 65vh;
   max-width: 800px;
   padding: 0px;
   display: flex;
