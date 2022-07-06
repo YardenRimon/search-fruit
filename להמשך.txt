@@ -1,0 +1,7 @@
+השראה: https://codepen.io/adubiel/pen/JdVXyE?editors=1000
+https://codepen.io/yadavanuj1996/pen/poebRYz?editors=1100
+
+לסדר כמו כרטיסים
+להוסיף אשפרות שכשלוחצים על כרטיס הוא מקפיץ את השם לתיבת החיפוש
+לכתוב כמה תוצאות נמצאו
+כפתור + שמוסיף אותם לשייק?
